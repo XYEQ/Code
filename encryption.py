@@ -1,3 +1,11 @@
+# Input works as follows:
+# First line: Number of cases
+# Each case will include
+#    - The first line of each case will contain either "ENCRYPT" or "DECRYPT"
+#    - The second line of each case will contain the cipher key which will be 26 characters which map in order to the standard English alphabet
+#    - The third line of each case will contain a positive integer N representing the number of messages to follow
+#    - N lines of each case will contain a message which needs to be either encrypted or decrypted depending on what is inputted on the first line
+
 import string
 
 inputs = int(input())
