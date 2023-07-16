@@ -1,3 +1,9 @@
+# Input works as follows
+# First line: number of cases to process
+# Each case will contain
+#    - A line containing a positive integer, X, indicating the number of lines of text to be provided.
+#    - X lines, containing text to be analyzed.
+
 import string
 
 inputs = int(input())
